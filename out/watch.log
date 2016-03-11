@@ -1,0 +1,46 @@
+Building ...
+Compiling out/cljs/nodejs.cljs
+Compiling src/hello_world/core.cljs
+... done. Elapsed 0.127825604 seconds
+Watching paths: /Users/master/makeschool/clojurescript/hello_world/src
+Change detected, recompiling ...
+clojure.lang.ExceptionInfo: Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/hello_world/core.cljs {:file #object[java.io.File 0x6ee6bb68 "src/hello_world/core.cljs"], :line 1, :column 1, :tag :cljs/analysis-error}
+	at clojure.core$ex_info.invoke(core.clj:4593)
+	at cljs.analyzer$error.invoke(analyzer.cljc:568)
+	at cljs.analyzer$error.invoke(analyzer.cljc:566)
+	at cljs.analyzer$fn__1358$fn__1363.invoke(analyzer.cljc:1912)
+	at clojure.core.protocols$fn__6523.invoke(protocols.clj:167)
+	at clojure.core.protocols$fn__6478$G__6473__6487.invoke(protocols.clj:19)
+	at clojure.core.protocols$seq_reduce.invoke(protocols.clj:31)
+	at clojure.core.protocols$fn__6506.invoke(protocols.clj:101)
+	at clojure.core.protocols$fn__6452$G__6447__6465.invoke(protocols.clj:13)
+	at clojure.core$reduce.invoke(core.clj:6519)
+	at cljs.analyzer$fn__1358.invoke(analyzer.cljc:1909)
+	at clojure.lang.MultiFn.invoke(MultiFn.java:251)
+	at cljs.analyzer$analyze_seq_STAR_.invoke(analyzer.cljc:2390)
+	at cljs.analyzer$analyze_seq_STAR__wrap.invoke(analyzer.cljc:2395)
+	at cljs.analyzer$analyze_seq.invoke(analyzer.cljc:2416)
+	at cljs.analyzer$analyze_form.invoke(analyzer.cljc:2525)
+	at cljs.analyzer$analyze_STAR_.invoke(analyzer.cljc:2572)
+	at cljs.analyzer$analyze.invoke(analyzer.cljc:2588)
+	at cljs.analyzer$parse_ns$fn__1608$fn__1609.invoke(analyzer.cljc:2704)
+	at cljs.analyzer$parse_ns$fn__1608.invoke(analyzer.cljc:2704)
+	at cljs.analyzer$parse_ns.invoke(analyzer.cljc:2682)
+	at cljs.analyzer$parse_ns.invoke(analyzer.cljc:2673)
+	at cljs.compiler$find_source.invoke(compiler.cljc:1389)
+	at clojure.core$map$fn__4553.invoke(core.clj:2624)
+	at clojure.lang.LazySeq.sval(LazySeq.java:40)
+	at clojure.lang.LazySeq.seq(LazySeq.java:49)
+	at clojure.lang.RT.seq(RT.java:507)
+	at clojure.core$seq__4128.invoke(core.clj:137)
+	at clojure.core$reduce1.invoke(core.clj:903)
+	at clojure.core$set.invoke(core.clj:3960)
+	at cljs.closure$add_dependency_sources.invoke(closure.clj:731)
+	at cljs.closure$build.invoke(closure.clj:1807)
+	at cljs.closure$watch$buildf__4192.invoke(closure.clj:1889)
+	at cljs.closure$watch.invoke(closure.clj:1938)
+	at cljs.repl$repl_STAR_$fn__4727$fn__4732.invoke(repl.cljc:881)
+	at clojure.core$binding_conveyor_fn$fn__4444.invoke(core.clj:1916)
+	at clojure.lang.AFn.run(AFn.java:22)
+	at java.lang.Thread.run(Thread.java:745)
+
